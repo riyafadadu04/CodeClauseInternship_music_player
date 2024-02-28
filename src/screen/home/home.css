@@ -1,0 +1,18 @@
+.main-body{
+    background-image: url("https://media.istockphoto.com/id/460149761/vector/music-background.jpg?s=612x612&w=0&k=20&c=SPEzZvjWkkfa-QFK5i6bzC_yS0t1YmU7S6AgNvP93ts=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(#000000,#002593); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left-side{
+    width: 12%;
+    height: 100%;
+    background: #033ab1dc;
+}
+.right-side{
+    width: 88%;
+    height: 100%;
+}

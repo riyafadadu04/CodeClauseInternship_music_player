@@ -1,0 +1,55 @@
+.albumImage{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.albumImage img {
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.albumImage-shadow {
+    -webkit-filter: blur(10px);
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 5px;
+}
+
+.album-info{
+    padding: 10px 0px;
+    text-align: left;
+    color: #ffff; 
+    overflow: hidden;
+}
+
+.album-artist{
+    font-size: 1rem;
+
+}
+
+.album-title{
+    padding: 5px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+ 
+.marquee{
+    white-space: nowrap;
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+    padding-left: 100% ;
+}
+
+@keyframes marquee{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

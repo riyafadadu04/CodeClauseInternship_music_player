@@ -1,0 +1,14 @@
+.players{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left-players-body{
+    width: 65%;
+}
+.right-players-body{
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+}

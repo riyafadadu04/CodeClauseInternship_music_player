@@ -1,0 +1,11 @@
+ .songCard{
+    background: #ffffff44;
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ }

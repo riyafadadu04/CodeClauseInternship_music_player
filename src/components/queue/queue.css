@@ -1,0 +1,87 @@
+.queue{
+    background: #02299bbb;
+    border-radius: 25px 0px 0px 25px;
+    height: 50%;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.queue-body{
+    padding: 20px 0px;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+}
+
+.track-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.upNext{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.queue-list{
+    height: 80%;
+    overflow-y: auto;
+} 
+
+.queue-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #7694efa1;  
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding: 10px ;
+    cursor: pointer;
+    transition: all  ease;
+    text-overflow: ellipsis;
+    text-align: center;
+    justify-items: center;
+}
+
+.queue-item:hover{
+    transform: scale(0.98);
+}
+
+.queue-list::-webkit-scrollbar{
+    display: none;
+}
+
+.track-name{
+    font-size: 1.2rem;
+}
+
+.track-artist{
+    font-size: 0.8rem;
+}
+
+.queue-item p{
+    margin: 0px 20px;
+}
+
+.track-title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-overflow: ellipsis;
+    padding: 5px;
+    text-align: left;
+    justify-items: center;
+}
+
+.heart{
+    width: 20px;
+}
